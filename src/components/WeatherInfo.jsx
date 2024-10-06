@@ -16,7 +16,7 @@ const WeatherInfo = ({ weatherData, tempCelsius, idName, getImageName }) => (
       {tempCelsius !== null ? `${tempCelsius.toFixed(1)}°C` : "..."}
     </div>
     <div className="weatherCondition text-white h-10 w-40 mx-auto mt-4 text-center flex justify-center items-center">
-      {weatherData ? weatherData.weather[0].description : "Loading..."}
+      {weatherData ? weatherData.weather[0].description : "Wrong name?"}
     </div>
   </>
 );

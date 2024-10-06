@@ -107,8 +107,33 @@ const App = () => {
             Get
           </button>
         </form>
-        <div className="copyright text-slate-200 text-center h-10 w-60 mx-auto mt-2 flex justify-center items-center">
-          &copy;niloykumarmohonta
+        <div className="copyright  text-slate-200 text-center h-14 w-72 mx-auto mt-2 flex flex-col">
+          <a href="mailto:niloykumarmohonta@gmail.com">
+            <span>&copy;niloykumarmohonta@gmail.com</span>
+          </a>
+          <span className="flex justify-around  h-8 w-28 mx-auto items-center">
+            <a
+              href="https://www.facebook.com/niloykumar.mohonta.5"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="facebook.svg" alt="Facebook" className="h-6 w-6" />
+            </a>
+            <a
+              href="https://x.com/niloykmohonta"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="x.svg" alt="X" className="h-6 w-6" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/niloy-kumar-mohonta-bb3367155/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="linkedin.svg" alt="LinkedIn" className="h-8 w-auto" />
+            </a>
+          </span>
         </div>
       </div>
     </>
